@@ -58,26 +58,63 @@
           </div>
         </div>
       </header>
-
       <main>
         <div class="container">
-          <section>
-            <h1>Frontend-разработчик</h1>
-            <p>
+          <section class="start">
+            <h2 class="title title-start">Frontend-разработчик</h2>
+            <p class="start-p">
               Трехмесячный бесплатный учебный курс от Финтеха, который можно
               проходить из любой точки России
             </p>
-            <button class="button" type="button">Подробнее</button>
-            <img src="/assets/images/frontend.png" alt="Фронтенд технологии" />
+            <button class="button" type="button">
+              <a style="color: #333333" href="#howtostudy">Подробнее</a>
+            </button>
+            <div class="start-img-block">
+              <img
+                src="/assets/images/frontend.png"
+                alt="Фронтенд технологии" />
+            </div>
           </section>
+
           <section>
-            <!-- TODO: пример приминения сеток через flex: на свех устроуйствах -->
+            <div class="row">
+              <div class="col col_md-12 col_sm-12 col_xs-12">
+                <h2 class="title">Кому подойдет курс</h2>
+              </div>
+            </div>
+            <div class="wrapper row">
+              <section class="col col_md-8 col_sm-6 col_xs-12">
+                <div class="block">
+                  <img
+                    src="./assets/images/about-course-560.png"
+                    alt="Кому подойдет курс" />
+                </div>
+              </section>
+              <section class="col col_md-4 col_sm-6 col_xs-12">
+                <div class="text-block">
+                  <ul class="list-info">
+                    <li>
+                      <p>Вы студент или выпускник технических <br />вузов</p>
+                    </li>
+                    <li><p>Хотите научиться создавать интерфейсы</p></li>
+                    <li>
+                      <p>
+                        Хотите познакомиться с современным<br />
+                        JavaScript и его фреймворками
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section>
             <div class="row">
               <div class="col col_md-12 col_sm-12 col_xs-12">
                 <h2 class="title">Что вас ждет на курсе</h2>
               </div>
             </div>
-            <!-- TODO: пример приминения сеток через flex для всех размеров -->
             <div class="wrapper row">
               <section class="col col_md-4 col_sm-12 col_xs-12">
                 <div class="block">
@@ -94,7 +131,7 @@
                     Доступ к учебным материалам онлайн
                   </h4>
                   <p class="block__info">
-                    Онлайн-курс с лекциями  и домашними заданиями. Вы можете его
+                    Онлайн-курс с лекциями и домашними заданиями. Вы можете его
                     пройти из любой точки России
                   </p>
                 </div>
@@ -112,24 +149,140 @@
           </section>
 
           <section>
-            <!-- TODO: доделать просто пример приминения сеток через flex: на свех устроуйствах -->
+            <div class="row">
+              <div class="col col_md-12 col_sm-12 col_xs-12">
+                <a id="howtostudy"></a>
+                <h2 class="title">Как строится обучение</h2>
+              </div>
+            </div>
+            <div class="wrapper row">
+              <section class="col col_md-6 col_sm-6 col_xs-12">
+                <div class="block">
+                  <h4 class="block__title">Онлайн-занятия 1 раз в неделю</h4>
+                  <div class="text-block">
+                    <ul class="list-info">
+                      <li>
+                        <p>
+                          Курс стартует в середине февраля и длится три месяца
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          В неделю будете тратить около 2-3 часов на лекции и
+                          столько, сколько сочтете нужным на домашнюю работу
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="col col_md-6 col_sm-6 col_xs-12">
+                <div class="block">
+                  <h4 class="block__title">Интерактив и нетворкинг</h4>
+                  <div class="text-block">
+                    <ul class="list-info">
+                      <li>
+                        <p>
+                          Вы сможете задавать вопросы преподавателям во время
+                          лекции в Зуме или в общем чате
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Обсуждать материалы и домашки вместе с сокурсниками.
+                          Это поможет найти новый профессиональный круг общения
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section>
+            <div class="row">
+              <div class="col col_md-12 col_sm-12 col_xs-12">
+                <h2 class="title">Бесплатное обучение</h2>
+              </div>
+            </div>
+            <div class="wrapper row">
+              <section class="col col_md-6 col_sm-6 col_xs-12">
+                <div class="block">
+                  <img
+                    src="./assets/icons/academic.svg"
+                    alt="Academic"
+                    width="36"
+                    height="36" />
+                  <h4 class="block__title">
+                    Каждый студент проходит тщательный отбор
+                  </h4>
+                  <div class="text-block">
+                    <ul class="info-list">
+                      <li>
+                        <p>
+                          Пройдите экзамен и заполните анкету, которая выполняет
+                          функцию портфолио
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Расскажите подробно о своем опыте: сильное портфолио
+                          влияет на решение
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="col col_md-6 col_sm-6 col_xs-12">
+                <div class="block">
+                  <img
+                    src="./assets/icons/doc.svg"
+                    alt="Doc"
+                    width="36"
+                    height="36" />
+                  <h4 class="block__title">Одинаковые условия для всех</h4>
+                  <div class="text-block">
+                    <ul class="info-list">
+                      <li>
+                        <p>
+                          Чтобы успешно закончить курс, нужно выполнить
+                          обязательные домашние задания и защитить проект
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          После обучения выдаем сертификат, подтверждающий,что
+                          вы освоили теорию и навыки веб-разработки
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section>
             <div class="row">
               <div class="col col_md-12 col_sm-12 col_xs-12">
                 <h2 class="title">Как попасть на курс</h2>
               </div>
             </div>
-            <!-- TODO: пример приминения сеток через flex для всех размеров -->
             <div class="wrapper row">
               <section class="col col_md-3 col_sm-6 col_xs-12">
                 <div class="block">
                   <p class="block__info">
-                    Оставьте заявку онлайн  и зарегистрируйтесь  на сайте
+                    <span class="block-num">1</span>
+                    Оставьте заявку онлайн и зарегистрируйтесь на сайте
                   </p>
                 </div>
               </section>
               <section class="col col_md-3 col_sm-6 col_xs-12">
                 <div class="block">
                   <p class="block__info">
+                    <span class="block-num">2</span>
                     Расскажите в анкете, почему хотите изучить веб-разработку
                   </p>
                 </div>
@@ -137,6 +290,7 @@
               <section class="col col_md-3 col_sm-6 col_xs-12">
                 <div class="block">
                   <p class="block__info">
+                    <span class="block-num">3</span>
                     Пройдите экзамен: решите несколько задач по программированию
                   </p>
                 </div>
@@ -144,31 +298,17 @@
               <section class="col col_md-3 col_sm-6 col_xs-12">
                 <div class="block">
                   <p class="block__info">
-                    Дождитесь письма  об итогах отбора. Начните учиться
+                    <span class="block-num">4</span>
+                    Дождитесь письма об итогах отбора. Начните учиться
                   </p>
                 </div>
               </section>
             </div>
           </section>
-
-          <section>
-            <!-- accordion(скрывающийся раскрывающийся список) -->
-            <details>
-              <summary>Основы JavaScript</summary>
-              <p>Изучим основы и тонкости языка</p>
-              <p>Типы данных</p>
-              <p>Области видимости и замыкания</p>
-              <p>Прототипы и наследование</p>
-              <p>Однопоточность и стек вызовов</p>
-              <p>Асинхронные API: Promise, AJAX, async-await</p>
-            </details>
-          </section>
         </div>
       </main>
-
       <footer>
         <div class="container">
-          <!-- TODO: пример приминения сеток через grid.css(но только для десктопа, для мобилок адаптив реализован в footer) -->
           <div class="grid grid-col-2 footer">
             <div class="copyright">
               <span>© 2022 «Тинькофф Образование»</span>
@@ -183,7 +323,6 @@
         </div>
       </footer>
     </div>
-
     <script type="module" src="./main.js"></script>
   </body>
 </html>
